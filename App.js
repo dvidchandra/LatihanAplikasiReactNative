@@ -70,20 +70,7 @@ const App: () => Node = () => {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.js</Text> untuk mengubah layar ini 
-            dan kembali untuk melihat editan anda.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Bacalah dokumentasi untuk menemukan apa yang dilakukan selanjutnya:
-          </Section>
-          <LearnMoreLinks />
+            <Text>Hello</Text>
         </View>
       </ScrollView>
     </SafeAreaView>
