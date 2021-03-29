@@ -6,14 +6,16 @@ import {
 import Flexbox from './Flexbox';
 import SampleComponent from './SampleComponent';
 import StylingReactNativeComponent from './StylingReactNativeComponent';
+import PositionReactNative from './PositionReactNative';
 
 const App = () => {
   return (
     <View>
       <ScrollView>
         {/* <SampleComponent />
-        <StylingReactNativeComponent /> */}
-        <Flexbox />
+        <StylingReactNativeComponent />
+        <Flexbox /> */}
+        <PositionReactNative />
       </ScrollView>
     </View>
   )
